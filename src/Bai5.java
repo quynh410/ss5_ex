@@ -12,7 +12,7 @@ public class Bai5 {
         int min = Integer.MAX_VALUE;
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
-            if (arr[i] % 2 == 0 && arr[i] > 0) {
+            if (arr[i] % 2 == 0 && arr[i] != 0) {
                 if (arr[i] > max) {
                     max = arr[i];
                 }
